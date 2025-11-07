@@ -1,0 +1,152 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+nav a.nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a.nav-link:hover {
+  color: #6f42c1;
+}
+
+/* ---------- HEADER / HERO ---------- */
+header {
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #6f42c1);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-primary {
+  background-color: #6f42c1;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #6f42c1, #007bff);
+  border: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #563d7c, #0056b3);
+  transform: translateY(-3px);
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #6f42c1;
+  text-transform: uppercase;
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+/* ---------- ABOUT ---------- */
+.about-img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #6f42c1;
+}
+
+.social-icons a {
+  color: #6f42c1;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #563d7c;
+}
+
+/* ---------- CAROUSEL ---------- */
+.carousel-inner img {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.carousel-inner img:hover {
+  transform: scale(1.02);
+}
+
+/* ---------- BACK TO TOP ---------- */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #6f42c1;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: none;
+  transition: 0.3s;
+  z-index: 999;
+}
+
+#backToTop:hover {
+  background: #563d7c;
+  transform: scale(1.1);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
